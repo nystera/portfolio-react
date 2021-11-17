@@ -4,9 +4,7 @@ import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
-    <div className={{
-      margin: "30px 30px"
-    }}>
+    <div>
       <Intro/>
       <About/>
       <Contact/>
