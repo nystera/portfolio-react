@@ -11,18 +11,45 @@ export const About = () => {
         </div>
       </div>
       <div className="a-right">
-      <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
-        </p>
-        <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
-        </p>
-
+        <h1 className="a-title">About Me</h1>
+        <h3 className="a-desc">
+          Located in Singapore, I am currently a student in National University of Singapore (NUS).
+          My passion for programming started out when I was 10, dreaming of developing games for others to enjoy
+          and having my first taste in coding while creating custom maps in Warcraft III with World Editor.
+          I enjoy playing competitive games, finding good food to eat, and watching football.
+        </h3>
+      <div className="a-year-job">
+        <h3 className="a-year">
+          2018
+        </h3>
+        <p className="a-job">
+          Enrolled in National University of Singapore (Computer Science)
+        </p> 
+      </div>
+      <div className="a-year-job">
+        <h3 className="a-year">
+          2020 - 2020
+        </h3>
+        <p className="a-job">
+          Software Engineer, A*STAR (Intern)
+        </p> 
+      </div>
+        <div className="a-year-job">
+          <h3 className="a-year">
+            2021 - 2021
+          </h3>
+          <p className="a-job">
+            iOS App Developer, Rakuten Viki (Intern)
+          </p> 
+        </div>
+        <div className="a-year-job">
+          <h3 className="a-year">
+            2021 - Present
+          </h3>
+          <p className="a-job">
+            QA Engineer, Shopee (Intern)
+          </p> 
+        </div>
       </div>
     </div>
   )

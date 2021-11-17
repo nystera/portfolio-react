@@ -10,16 +10,15 @@ const Intro = () => {
           <h1 className="i-name">Nathan Yeo</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
+              <div className="i-title-item">Aspiring Back-end Engineer</div>
               <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">UI/UX designer</div>
-              <div className="i-title-item">Writer</div>
-              <div className="i-title-item">Content Creator</div>
+              <div className="i-title-item">Content Creator (soon-ish)</div>
+              <div className="i-title-item">Gaming Enthusiast</div>
             </div>
           </div>
           <h2 className="i-desc">
-          I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+          I like to design and develop microservices for applications, focusing on efficiency, code cleanliness and potential scalability.
+          I also have some experience in web development.
           </h2>
         </div>
       </div>

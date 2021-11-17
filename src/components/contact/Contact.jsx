@@ -35,24 +35,27 @@ export const Contact = () => {
       <div className="c-bg"></div>
         <div className="c-wrapper">
           <div className="c-left">
-            <h1 className="c-title">Let's discuss your project</h1>
+            <h1 className="c-title">Contact me! :)</h1>
             <div className="c-info-item">
               <img src={Mail} alt="" className="c-icon"/>
-              yeo.nathan@outlook.com
+              <h3 className="c-contact-text">yeo.nathan@outlook.com</h3>
             </div>
             <div className="c-info-item">
               <img src={LinkedIn} alt="" className="c-icon"/>
-              linkedin.com/in/nathan-yeo
+              <a href="https://linkedin.com/in/nathan-yeo">
+                <h3 className="c-contact-text">linkedin.com/in/nathan-yeo</h3>
+              </a>
             </div>
             <div className="c-info-item">
               <img src={Github} alt="" className="c-icon"/>
-              github.com/nystera
+              <a href="https://github.com/nystera">
+                <h3 className="c-contact-text">github.com/nystera</h3>
+              </a>
             </div>
           </div>
           <div className="c-right">
             <p className="c-desc">
-              <b>What’s your story?</b> Get in touch. Always available for
-              freelancing if the right project comes along. me.
+              <b>Alternatively,</b> you can fill in this form to contact me directly.
             </p>
             <form ref={formRef} onSubmit={handleSubmit}>
               <input type="text" placeholder="Name" name="user_name" />
