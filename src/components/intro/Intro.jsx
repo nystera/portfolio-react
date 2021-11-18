@@ -1,5 +1,5 @@
-import "./intro.css"
-import Me from "../../img/me.png"
+import "./intro.css";
+import Me from "../../img/me.png";
 
 const Intro = () => {
   return (
@@ -12,23 +12,24 @@ const Intro = () => {
             <div className="i-title-wrapper">
               <div className="i-title-item">Aspiring Back-end Engineer</div>
               <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">Content Creator (soon-ish)</div>
+              <div className="i-title-item">Content Creator</div>
               <div className="i-title-item">Gaming Enthusiast</div>
             </div>
           </div>
           <h2 className="i-desc">
-          I like to design and develop microservices for applications, focusing on efficiency, code cleanliness and potential scalability.
-          I also have some experience in web development.
+            I like to design and develop microservices for applications,
+            focusing on efficiency, code cleanliness and potential scalability.
+            I also have some experience in web development.
           </h2>
         </div>
       </div>
       <div className="i-right">
         <div className="i-bg">
-          <img src={Me} alt="" className="i-img"/>
+          <img src={Me} alt="" className="i-img" />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

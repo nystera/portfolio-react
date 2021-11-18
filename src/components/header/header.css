@@ -1,0 +1,11 @@
+.header-bar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 100px;
+  background-color: #AEB6BF;
+  flex:auto;
+  align-items: center;
+  justify-content: center;
+}
